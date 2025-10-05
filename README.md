@@ -25,7 +25,7 @@ You can add **ShortID** to your project directly from Xcode:
 
 1. Open your project in Xcode  
 2. Go to **File → Add Packages...**  
-3. Enter repository URL:https://github.com/yourname/ShortID.git
+3. Enter repository URL:https://github.com/aimpackage/ShortID.git
 
 4. Select **Add Package**
 
@@ -33,7 +33,7 @@ Or in your `Package.swift`:
 
 ```swift
 dependencies: [
- .package(url: "https://github.com/yourname/ShortID.git", from: "1.0.0")
+ .package(url: "https://github.com/aimpackage/ShortID.git", from: "1.0.0")
 ]
 ```
 

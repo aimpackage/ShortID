@@ -17,12 +17,7 @@ let package = Package(
         .target(
             name: "ShortID",
             dependencies: [],
-            path: "Sources/ShortID"  // ✅ 显式声明源码路径
-        // ),
-        // .testTarget(
-        //     name: "ShortIDTests",
-        //     dependencies: ["ShortID"],
-        //     path: "Tests/ShortIDTests" // ✅ 显式声明测试路径
+            path: "Sources/ShortID"
         )
     ]
 )

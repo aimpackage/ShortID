@@ -16,11 +16,13 @@ let package = Package(
     targets: [
         .target(
             name: "ShortID",
-            dependencies: []
-        ),
-        .testTarget(
-            name: "ShortIDTests",
-            dependencies: ["ShortID"]
+            dependencies: [],
+            path: "Sources/ShortID"  // ✅ 显式声明源码路径
+        // ),
+        // .testTarget(
+        //     name: "ShortIDTests",
+        //     dependencies: ["ShortID"],
+        //     path: "Tests/ShortIDTests" // ✅ 显式声明测试路径
         )
     ]
 )

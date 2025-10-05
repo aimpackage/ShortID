@@ -35,6 +35,7 @@ Or in your `Package.swift`:
 dependencies: [
  .package(url: "https://github.com/yourname/ShortID.git", from: "1.0.0")
 ]
+```
 
 # Usage
 import ShortID
